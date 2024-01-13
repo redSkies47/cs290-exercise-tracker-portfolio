@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(20px + 1vmin);
+  text-align: left;
+  color:#ff5c35;
+  background-color: #1b2b34;
+  margin: 5px;
+  padding: 5px;
+}
+
+body p {
+  font-size: .75em;
+}
+
+header {
+  color: #ff5c35;
+  background-color: #213343;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  border-radius: 40px 40px 0px 0px;
+  padding: 8px 0px;
+}
+
+tr th {
+  font-size: 1.25em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff5c35;
+  background-color: #ff5c35;
+  padding: 12px 5px;
+  color: #E1E6E1;
+}
+
+tr td {
+  font-size: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff7a59;
+  color: #FFD29D;
+  text-align: center;
+  padding: 18px 16px;
+}
+
+table {
+  background-color: #213343;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, button, select {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  border-style: none;
+  border-radius: 6px;
+  align-items: center;
+}
+
+input {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+footer {
+  color: #ff5c35;
+  background-color: #213343;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: small;
+}
+
+.crumbs {
+  background-color: #213343;
+  font-size: 0.70em;
+}
+
+ol {
+  margin: 0px;
+  border-bottom: solid;
+  border-color: #FD8060;
+}
+li {
+  display: inline;
+}
+
+.crumb {
+  font-size: .8em;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FD8060;
+}
